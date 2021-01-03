@@ -9,7 +9,7 @@ public class FlowEx24 {
 		while(i--!=0){
 			System.out.println(i);
 			for(int j=0; j<2_000_000_000; j++){
-				;
+				;	// 아무런 내용도 없는 빈 문장
 			}
 		}
 		
