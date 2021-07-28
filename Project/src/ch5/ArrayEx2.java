@@ -1,6 +1,6 @@
 package ch5;
 
-import java.util.*; // Arrays.toString()À» »ç¿ëÇÏ±â À§ÇØ Ãß°¡
+import java.util.*; // Arrays.toString()ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½
 
 public class ArrayEx2 {
 
@@ -12,14 +12,14 @@ public class ArrayEx2 {
 		char[] chArr = {'a', 'b', 'c', 'd'};
 		
 		for(int i=0; i < iArr1.length; i++) {
-			iArr1[i] = i+ 1; // 1~10ÀÇ ¼ýÀÚµéÀ» ¼ø¼­´ë·Î ¹è¿­¿¡ ³Ö´Â´Ù.
+			iArr1[i] = i+ 1; // 1~10ï¿½ï¿½ ï¿½ï¿½ï¿½Úµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½è¿­ï¿½ï¿½ ï¿½Ö´Â´ï¿½.
 		}
 		
 		for(int i=0; i < iArr2.length; i++) {
-			iArr2[i] = (int) (Math.random() * 10) + 1; // 1~10ÀÇ °ªÀ» ¹è¿­¿¡ ÀúÀå
+			iArr2[i] = (int) (Math.random() * 10) + 1; // 1~10ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½è¿­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		}
 		
-		// ¹è¿­¿¡ ÀúÀåµÈ °ªµéÀ» Ãâ·ÂÇÑ´Ù.
+		// ë°°ì—´ì— ì €ìž¥ëœ ê°’ë“¤ì„ ì¶œë ¥í•œë‹¤.
 		for(int i=0; i<iArr1.length; i++) {
 			System.out.print(iArr1[i]+",");
 		}

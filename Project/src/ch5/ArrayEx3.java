@@ -5,24 +5,24 @@ public class ArrayEx3 {
 	public static void main(String[] args) {
 		int[] arr = new int[5];
 		
-		// ¹è¿­ arr¿¡ 1~5¸¦ ÀúÀåÇÑ´Ù.
+		// ë°°ì—´ arrì— 1~5ë¥¼ ì €ì¥í•œë‹¤.
 		for(int i=0; i<arr.length; i++)
 			arr[i] = i + 1;
 
-		System.out.println("[º¯°æÀü]");
+		System.out.println("[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½]");
 		System.out.println("arr.length:"+arr.length);
 		for(int i=0; i<arr.length;i++)
 			System.out.println("arr["+i+"]:"+arr[i]);
 		
 		int[] tmp = new int[arr.length*2];
 		
-		// ¹è¿­ arr¿¡ ÀúÀåµÈ °ªµéÀ» ¹è¿­ tmp¿¡ º¹»çÇÑ´Ù.
+		// ë°°ì—´ arrì— ì €ì¥ëœ ê°’ë“¤ì„ ë°°ì—´ tmpì— ë³µì‚¬í•œë‹¤.
 		for(int i=0; i<arr.length; i++)
 			tmp[i] = arr[i];
 		
-		arr = tmp; // tmp¿¡ ÀúÀåµÈ °ªÀ» arr¿¡ ÀúÀåÇÑ´Ù.
+		arr = tmp; // tmpì— ì €ì¥ëœ ê°’ì„ arrì— ì €ì¥í•œë‹¤.
 		
-		System.out.println("[º¯°æÈÄ]");
+		System.out.println("[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½]");
 		System.out.println("arr.length:"+arr.length);
 		for(int i=0; i<arr.length;i++)
 			System.out.println("arr["+i+"]:"+arr[i]);
